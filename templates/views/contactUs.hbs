@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/stylecontact.css">
+</head>
+<body style="background-color: rgb(231, 141, 141); color:aliceblue">
+    {{>header}}
+    <div class="container">
+        <p style="font-size: 30px;">If you have anything for Us...</p>
+        <h1>CONTACT US</h1>
+        <form action="/contactUs" method="post" class="myForm">
+            <input type="text" name="name" class="myInput" placeholder="Enter your name here" required="true">
+            <input type="number" name="phone" class="myInput" placeholder="Enter your number here" required="true">
+            <input type="email" name="email" class="myInput" placeholder="Enter your email here" required="true">
+            <textarea name="message" class="myInput" cols="30" rows="10" placeholder="Give your feedback here..." required="true"></textarea>
+            <button type="submit" class="btun">Submit</button><br><br>
+        </form>
+    </div>
+    {{>footer}}
+</body>
+</html>

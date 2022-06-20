@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 42px;
+    width:70px
+}
+#navbar{
+    background-color:aquamarine;
+    padding: 13px 14px;
+    font-family: Verdana;
+    background-color: #d43b3b;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding:13px 30px;
+    font: bold;
+    color:white;
+    background-color: #d43b3b;
+}
+
+#sin a{
+    text-align: right;
+    text-decoration: none;
+    margin-left: 327px;
+    padding:13px 30px;
+    font: bold;
+    color:white;
+    background-color: #d43b3b;
+}
+
+#sin:hover{
+    color:black;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color:black;
+    font-weight: bold;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: monospace;
+    align-items: center;
+    font-size: 35px;
+    background: center / cover no-repeat url("/public/images/bg.jpg");
+    height: 300px;
+    background-color: red;
+    padding-bottom: 40px;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#introSection div.small{
+    font-size: 27px;
+}
+
+.missionSection, .team{
+    
+    text-align: center;
+    padding-top:23px;
+    font-family: monospace;
+}
+.client{
+    text-align: center;
+    padding-top:23px;
+    font-family: monospace;
+    background-color:#f0d2d2;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:28%;
+    margin: 23px 20px;
+    height: 209px;
+}
+

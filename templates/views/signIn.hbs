@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/public/stylecontact.css">
+</head>
+<body style="background-color: rgb(231, 127, 127); color: aliceblue;">
+    {{>header}}
+    <br><br><br>
+    <form action="/signIn" method="post" class="myForm">
+    <br><h1><center>Login here</center></h1><br><br>
+    <input type="email" class="myInput" name="Email" placeholder="Enter email" required="true">
+    <input type="password" class="myInput" name="Password" placeholder="Enter password" required="true">
+    <input type="submit" value="SignIn" class="btun"><br><br>
+    Don't have an Account | <a href="/signUp" style="text-decoration: none; color:rgb(239, 228, 121);">Create Account</a><br><br><br>
+    </form>
+    {{>footer}}
+</body>
+</html>

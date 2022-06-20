@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/public/stylecontact.css">
+</head>
+<body style="background-color: rgb(231, 127, 127);color: aliceblue;">
+    {{>header}}
+    <form action="/signUp" method="POST" class="myForm">
+    <br><h1><center>Registration here</center></h1><br>
+    <input type="text" class="myInput" name="First_Name" placeholder="Enter First Name" required="true">
+    <input type="text" class="myInput" name="Last_Name" placeholder="Enter Last Name" required="true">
+    <input type="email" class="myInput" name="Email" placeholder="Enter your E-mail" required="true">
+    <input type="number" class="myInput" name="Phone" placeholder="Enter Phone Number" required="true">
+    <input type="password" class="myInput" name="Password" placeholder="Enter Password" required="true">
+    <input type="password" class="myInput" name="Confirm_Password" placeholder="Re-enter Password" required="true">
+
+    <input type="submit" value="SignUp" class="btun"><br><br>
+    Already have an Account | <a href="/signIn" style="text-decoration: none; color:rgb(239, 228, 121);">Sign In</a><br><br>
+    </form>
+    {{>footer}}
+</body>
+</html>

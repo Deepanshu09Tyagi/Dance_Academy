@@ -1,0 +1,21 @@
+{
+  "name": "dance_academy",
+  "version": "1.0.0",
+  "description": "This is a Dance Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js -e js,hbs"
+  },
+  "author": "Deepanshu Tyagi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "path": "^0.12.7"
+  }
+}
